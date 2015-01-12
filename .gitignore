@@ -1,2 +1,6 @@
 *.pyc
 *sublime-*
+
+# egg stuff
+dist/*
+epic2cf.egg*
