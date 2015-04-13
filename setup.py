@@ -18,7 +18,7 @@ setup(
     long_description    = readme(),
     license             = 'MIT',
     author              = "Kyle Wilcox",
-    author_email        = "kyle@axiomalaska.com",
+    author_email        = "kyle@axiomdatascience.com",
     url                 = "https://github.com/axiom-data-science/epic2cf",
     packages            = find_packages(),
     install_requires    = reqs,
