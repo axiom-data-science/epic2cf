@@ -26,16 +26,16 @@ class DotDict(object):
 
 class mapping(object):
     @staticmethod
-    def get(epic_code):
+    def get(epic_code, default=None):
         try:
             epic_code = int(epic_code)
         except ValueError:
             logger.error("EPIC code '{0}'' could not be converted to an integer.".format(epic_code))
-            return None
+            return default
 
         epic = epic_map.get(epic_code)
         if epic is not None:
             return DotDict(**epic)
         else:
             logger.error("EPIC code {0} not recognized".format(epic_code))
-            return None
+            return default
