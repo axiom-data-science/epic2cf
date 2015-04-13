@@ -34,7 +34,7 @@ epic_map = {
     16   : dict(standard_name=None, long_name=None, units=None, convert=lambda x: x, cf_units=None, cell_methods=None),  # d2 :DYN2 (DYN M)             :dynhgt:dyn-m: :Dyn2 (ctd2) for geost vel calc,
     17   : dict(standard_name=None, long_name=None, units=None, convert=lambda x: x, cf_units=None, cell_methods=None),  # ZPG:ZONAL PRESSURE GRAD      : : : :Calculated for specific areas,
     18   : dict(standard_name='sea_surface_height', long_name='Sea Surface Height', units='m', convert=lambda x: x, cf_units='m', cell_methods=None),  # hght:height (m)              :height:m:f10.2:,
-    20   : dict(standard_name='air_temperature', long_name='Air Temperature', units='degree_Celsius', convert=lambda x: x+273.15, cf_units='K', cell_methods=None),  # T  :TEMPERATURE (C)          :temp:C:f10.2:IPTS-1968 standard,
+    20   : dict(standard_name=None, long_name='Temperature', units='degree_Celsius', convert=lambda x: x+273.15, cf_units='K', cell_methods=None),  # T  :TEMPERATURE (C)          :temp:C:f10.2:IPTS-1968 standard,
     21   : dict(standard_name='air_temperature', long_name='Air Temperature', units='degree_Celsius', convert=lambda x: x+273.15, cf_units='K', cell_methods=None),  # AT :AIR TEMPERATURE (C)      :atemp:C: :,
     22   : dict(standard_name='sea_water_temperature', long_name='Water Temperature (reversing therm)', units='degree_Celsius', convert=lambda x: x+273.15, cf_units='K', cell_methods=None),  # T0 :THERM TEMPERATURE (C)    :temp:C: :Reversing therm. 1E35 indicates no therm.,
     23   : dict(standard_name='air_temperature', long_name='Air Temperature', units='degree_Celsius', convert=lambda x: x+273.15, cf_units='K', cell_methods='time: minimum'),  # AT :AIR TEMPERATURE MIN (C)  :atemp:C: :,
