@@ -1,7 +1,7 @@
 #!python
 # coding=utf-8
 
-__version__ = '0.0.3'
+__version__ = '0.0.4-dev'
 
 import logging
 logger = logging.getLogger("epic2cf")
