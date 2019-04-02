@@ -2,7 +2,8 @@
 
 #### A simple python library to find the CF standard name equivalent of an EPIC code.
 
-[EPIC codes](http://www.epic.noaa.gov/epic/document/epickey.htm)
+[EPIC codes](https://www.pmel.noaa.gov/epic/download/#epic-programs) (`epic.key`)
+
 [CF standard names](http://cfconventions.org/Data/cf-standard-names/28/build/cf-standard-name-table.html)
 
 
